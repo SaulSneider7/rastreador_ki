@@ -1,0 +1,58 @@
+import type { PresetWarrior } from '../types';
+
+export const PRESET_WARRIORS: PresetWarrior[] = [
+  {
+    id: 'farmer',
+    name: 'Granjero con Escopeta',
+    race: 'Terrícola Humano',
+    canonicalPower: 5,
+    auraColor: '#889988',
+    image: 'https://images.unsplash.com/photo-1595278069441-2cf29f8005a4?w=800&auto=format&fit=crop&q=80',
+    quote: '¡Nivel de pelea de solo 5! ¡Qué basura!',
+  },
+  {
+    id: 'roshi',
+    name: 'Maestro Roshi (Kame-Sen\'nin)',
+    race: 'Maestro de Artes Marciales',
+    canonicalPower: 139,
+    auraColor: '#33ccff',
+    image: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&auto=format&fit=crop&q=80',
+    quote: 'Un poder respetable para un anciano terrestre.',
+  },
+  {
+    id: 'raditz',
+    name: 'Raditz (Soldado Saiyajin)',
+    race: 'Saiyajin Puro',
+    canonicalPower: 1200,
+    auraColor: '#ff9900',
+    image: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?w=800&auto=format&fit=crop&q=80',
+    quote: '¡Es la misma fuerza que un Saibaman!',
+  },
+  {
+    id: 'goku_base',
+    name: 'Son Goku (Kaio-ken x3)',
+    race: 'Saiyajin / Defensor de la Tierra',
+    canonicalPower: 9001,
+    auraColor: '#ff1133',
+    image: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?w=800&auto=format&fit=crop&q=80',
+    quote: '¡¿Qué?! ¡Es más de 9,000! ¡Ese aparato debe estar defectuoso!',
+  },
+  {
+    id: 'vegeta_saga',
+    name: 'Príncipe Vegeta (Invasión)',
+    race: 'Élite Saiyajin Real',
+    canonicalPower: 18000,
+    auraColor: '#aa22ff',
+    image: 'https://images.unsplash.com/photo-1563089145-599997674d42?w=800&auto=format&fit=crop&q=80',
+    quote: '¡Soy el príncipe de todos los Saiyajin!',
+  },
+  {
+    id: 'goku_ssj',
+    name: 'Son Goku (Super Saiyajin Legendario)',
+    race: 'Super Saiyajin',
+    canonicalPower: 150000000,
+    auraColor: '#ffd700',
+    image: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&auto=format&fit=crop&q=80',
+    quote: '¡EL RASTREADOR ESTÁ EXPLOTANDO! ¡NIVEL INCALCULABLE!',
+  },
+];
